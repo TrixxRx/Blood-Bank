@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(rgb(37, 37, 37),rgb(0, 0, 0));
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.navbar{
+    display: flex;
+    background: linear-gradient(rgba(253, 145, 145, 0.87),rgb(204, 112, 112));
+    width: 100vw;
+}
+#logo-img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 4px;
+    
+}
+#pulse{
+    width: 50px;
+}
+.navlink>ul{
+    display: flex;
+    list-style: none;
+    padding: 20px 5px;
+}
+.navlink>ul>li>a{
+    
+    margin: 8px;
+    
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.navlink>ul>li>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* for imagess */
+.mySlides {
+    display:none;
+    width: 100vw;
+    height: 800px;
+    overflow: hidden;
+}
+
+/* for detail */
+/* For Aboutbb */
+
+#block1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 20px;
+    width: 50vw;
+    text-align: justify;
+}
+#block1>h1{
+    font-size: 40px;
+    color: rgb(219, 10, 10);
+}
+#block1>h2{
+    font-size: 30px;
+}
+#Aboutbb{
+    padding: 20px;
+}
+#Aboutbb>h2{
+    font-size: 30px;
+}
+
+/* for blooddonor */
+#blooddonor{
+    margin: 20px;
+}
+#blooddonor>h2{
+    font-size: 30px;
+}
